@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1000.0" styleClass="bg-color" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bwiset.ViewGrades">
+    <children>
+        <AnchorPane opacity="0.75" prefHeight="525.0" prefWidth="200.0" styleClass="bg2-color" stylesheets="@style.css">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/Logo.png" />
+                    </image>
+                </ImageView>
+                <VBox layoutY="99.0" prefHeight="313.0" prefWidth="200.0" styleClass="side-bar" stylesheets="@style.css">
+                    <children>
+                        <Button fx:id="itButton" mnemonicParsing="false" onAction="#switchToInfoTech" prefHeight="29.0" prefWidth="177.0" styleClass="sidebar-button" stylesheets="@style.css" text="Information Technology" textFill="#020101" />
+                        <Button fx:id="hmButton" mnemonicParsing="false" onAction="#switchToHM" prefHeight="29.0" prefWidth="177.0" styleClass="sidebar-button" stylesheets="@style.css" text="Hospitality Management" />
+                        <Button mnemonicParsing="false" onAction="#switchToInfoBA" prefHeight="29.0" prefWidth="177.0" styleClass="sidebar-button" stylesheets="@style.css" text="Business Administration" />
+                        <Button mnemonicParsing="false" onAction="#switchToInfoCrim" prefHeight="29.0" prefWidth="177.0" styleClass="sidebar-button" text="Criminology" />
+                        <Button mnemonicParsing="false" onAction="#switchToInfoEduc" prefHeight="29.0" prefWidth="177.0" styleClass="sidebar-button" stylesheets="@style.css" text="Education" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+      <AnchorPane layoutX="216.0" layoutY="13.0" prefHeight="497.0" prefWidth="757.0" styleClass="bg2-color" stylesheets="@style.css">
+         <children>
+            <Label layoutX="155.0" layoutY="31.0" text="Full Name:" />
+            <TextField layoutX="153.0" layoutY="55.0" prefHeight="20.0" prefWidth="148.0" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </TextField>
+            <Label layoutX="155.0" layoutY="81.0" text="Course :" />
+            <TextField layoutX="153.0" layoutY="98.0" prefHeight="20.0" prefWidth="141.0" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </TextField>
+            <Label layoutX="356.0" layoutY="31.0" prefHeight="17.0" prefWidth="69.0" text="Year Level :" />
+            <TextField layoutX="354.0" layoutY="55.0" prefHeight="20.0" prefWidth="141.0" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </TextField>
+            <TableView layoutX="124.0" layoutY="158.0" prefHeight="200.0" prefWidth="477.0">
+              <columns>
+                <TableColumn prefWidth="226.6666259765625" text="Subject" />
+                <TableColumn prefWidth="249.33334350585938" text="Grade" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

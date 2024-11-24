@@ -1,0 +1,61 @@
+.bg-color{
+    -fx-background-color: #9ED7FF;
+
+}
+.bg2-color{
+    -fx-background-color: white;
+    -fx-opacity: .75;
+    -fx-background-radius: 10px;
+}
+.side-bar {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+
+
+
+
+.table-label{
+    -fx-text-fill:#0F086B;
+}
+
+
+/* Sidebar button styling */
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill:#0F086B;
+
+    -fx-font-size: 14px;
+}
+
+/* Hover effect for buttons */
+.sidebar-button:hover {
+    -fx-border-color:#0F086B;
+    -fx-border-width: 0 0 2 0; /* Bottom border only */
+}
+
+/* Active button style */
+.button.active {
+    -fx-border-color:#0F086B;
+    -fx-border-width: 0 0 2 0; /* Bottom border only */
+}
+
+.search{
+    -fx-background-color: white; /* Background color of the TextField */
+    -fx-border-color: #0F086B;  /* Border color */
+    -fx-border-radius: 10px;     /* Rounded corners for the border */
+    -fx-background-radius: 10px; /* Match the background radius to keep it smooth */ /* Padding inside the TextField */
+}
+
+.textfield {
+    -fx-background-color: #eaebf6;      /* Background color of the TextField */
+
+    -fx-border-radius: 10px;         /* Rounded corners for the border */
+    -fx-background-radius: 10px;     /* Match the background radius */
+}
+
+.textfield:focused {
+    -fx-border-color: #0F086B;       /* Visible border color when focused */
+}
