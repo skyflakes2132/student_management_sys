@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-<!--  test commit pull dasdadsdasdgi -->
+<!--  test git -->
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1000.0" styleClass="bg-color" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bwiset.BaView">
     <children>
         <AnchorPane opacity="0.75" prefHeight="525.0" prefWidth="200.0" styleClass="side-bar" stylesheets="@style.css">
